@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements NetworkResponseLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getHeroes();
-        //code added
+
     }
 
     private void getHeroes() {
