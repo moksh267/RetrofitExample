@@ -25,6 +25,10 @@ public class MainActivity extends AppCompatActivity implements NetworkResponseLi
         //code changed
     }
 
+    private void testData(){
+
+    }
+
     private void getHeroes() {
 
         DemoApi api = ApiClient.getClient().create(DemoApi.class);
